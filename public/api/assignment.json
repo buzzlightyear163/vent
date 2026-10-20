@@ -1,0 +1,24 @@
+{
+  "demo": true,
+  "status": "waiting",
+  "operator": "DUCT OPERATOR",
+  "steps": {
+    "lead": "queued",
+    "research": "queued",
+    "web": "queued",
+    "content": "queued",
+    "social": "queued",
+    "marketing": "queued",
+    "creative": "queued"
+  },
+  "outputs": {},
+  "simulation": {
+    "lead": "BRIEF / cycle 001\n- coin: (pre-launch job)\n- objective: one identity, seven deliverables\n- order: research > web > content > social > marketing > creative\n- review: every output comes back through the grille before it ships",
+    "research": "CONTEXT\n- category: character coin, ASCII-native\n- audience: late-night chart watchers\n- hook: 'something in the vents is working on your coin'\n- risks: none promised, none implied",
+    "web": "SITE PLAN\n/          hero, duct map, coin table\n/teams     entity files\n/coins     index + search\nstatus:    draft deployed to preview",
+    "content": "CAPTIONS (3)\n1. seven in the vents. one coin upstairs.\n2. you won't see them. you'll see the work.\n3. we left through the vents. we kept the tools.",
+    "social": "QUEUE\n- 3 posts drafted\n- state: waiting behind the grille for approval\n- nothing leaves without review",
+    "marketing": "PLAN\n- gate: $10K ten-minute low\n- milestone: $30K sustained -> listing package\n- cadence: on schedule / at milestones",
+    "creative": "+------------+\n|============|\n|===(o)(o)===|\n|============|\n+------------+\n\nARTWORK: grille mascot v1 (ASCII + PNG)"
+  }
+}

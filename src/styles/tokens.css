@@ -1,0 +1,51 @@
+/*
+ * Design tokens — all colours, type and spacing live here.
+ * VENT: svart, grå metall och en enda färg – lime, som ögonen bakom gallret.
+ * Justera värdena här så följer hela sajten med.
+ */
+:root {
+  /* colour */
+  --bg: #080908;
+  --bg-raise: #0f110e;
+  --bg-sunk: #050605;
+  --line: #262922;
+  --line-strong: #3a3e34;
+  --fg: #e8e5d8;
+  --fg-soft: #c4c1b4;
+  --muted: #8a887d;
+  --dim: #56564e;
+  --accent: #c8ff2e;
+  --accent-ink: #0a0b09;
+  --accent-dim: rgba(200, 255, 46, 0.14);
+  --pos: #c8ff2e;
+  --neg: #ff5a36;
+  --warn: #ffb02e;
+
+  /* type */
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --fs-xs: 11px;
+  --fs-sm: 12.5px;
+  --fs-base: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: clamp(22px, 2.6vw, 30px);
+  --fs-h1: clamp(36px, 6.2vw, 76px);
+  --tracking-label: 0.14em;
+
+  /* layout */
+  --container: 1320px;
+  --gutter: 24px;
+  --header-h: 60px;
+  --section-gap: clamp(64px, 9vw, 120px);
+
+  /* motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --gutter: 16px;
+    --header-h: 54px;
+    --fs-base: 13.5px;
+  }
+}
