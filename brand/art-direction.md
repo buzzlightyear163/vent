@@ -1,18 +1,12 @@
-# VENT – art direction
+# VENT – art direction (v2, kodad)
 
-Idé:        ett ventilationsgaller med något som tittar tillbaka. "You won't see them. You'll see the work."
-Material:   mjuk 3D-produkt – matt grafitsvart pulverlackerat galler, studioljus
-Värld:      bas #080908 · accent lime #c8ff2e (bara ögonen + live-pricken) · text #e8e5d8 · ljus uppe vänster + ögonens glöd
-Typografi:  Display 600 (Inter Display), tight tracking · Mono (Geist Mono) versaler för etiketter · Sans för brödtext
-Banner:     sju galler på rad på en betongvägg = de sju entiteterna; rubrik "Something's in the vents." till vänster
-Post:       redaktion + objekt – rubrik vänster, stort galler i trekvartsvy höger, crew-lista och metarad
-Avatar:     gallret rakt framifrån med två lime-ögon, grafitbakgrund
+Idé:        samma värld som sajten – terminalfönster, ASCII-galler, duct map och de sju entiteterna med lime-ögon.
+Material:   typ som bild / terminal (ASCII + mono), allt ritat i kod – inga AI-bilder.
+Värld:      bas #080908 · prickrutnät #262922 (18 px) · linjer #3a3e34 · text #e8e5d8 · lime #c8ff2e bara på ögon, statuslampor och markör
+Typografi:  JetBrains Mono (samma som sajten) – 800 för rubriker, 400/500 för text, versaler + spärrning för etiketter
+Banner:     terminalfönster "duct_feed.live" med ASCII-galler + VENT-logga, prompt "> something's in the vents_", duct map med de sju till höger
+Post:       rubrik "We left through the vents. We kept the tools." till vänster, terminalpanel "vent.sh" med `> vent --crew` och crewet till höger
+Avatar:     sajtens logga (VentMark): galler med två lime-ögon, tunna mellanlameller syns i stor storlek, försvinner snyggt i 24 px
 
-## Higgsfield-jobb
-- Avatar:  7477e434-ebe1-4917-a5ca-1d42e1ac2c0e  (gpt_image_2_5, ref 57545a00-…)
-- Banner:  3beb01ed-514f-4ee5-be6f-cb97fc82c41b  (nano_banana_pro 21:9, ref avatar)
-- Post:    142bd001-c833-4681-8a89-4ada920e2a35  (nano_banana_pro 16:9, ref 57545a00-…)
-- Grundgaller (referens): 57545a00-b237-4163-8b7f-06cc2c3717e9
-
-Använd avatar-jobbet som image_reference för nya bilder så gallret ser likadant ut.
-Ögonen: runda, lysande, inga pupiller (inte kattögon – skiljer VENT från LURK).
+Regler: inga scanlines eller CRT-glöd · ögonen är runda/rektangulära lampor, aldrig kattögon · accenten bara där något "lever".
+v1 (3D-renderade galler från Higgsfield) är ersatt av den här versionen.
