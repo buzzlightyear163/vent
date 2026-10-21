@@ -4,8 +4,7 @@
 export const brand = {
   name: 'VENT',
   ticker: '$VENT',
-  // TODO(branding): set the real mint address after launch.
-  ca: 'YourVentMintAddressGoesHere11111111111pump',
+  ca: 'HEBYskr8wquR51ffTUmshEoqzFTJv9X3hLGUGbX8pump',
   tagline: ['Seven in the vents.', 'One coin upstairs.'],
   disclaimer: 'NO PROMISES OF RETURNS.',
   activationCap: 10_000,

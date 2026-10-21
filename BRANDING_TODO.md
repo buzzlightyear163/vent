@@ -1,7 +1,7 @@
 # VENT – kvar att göra
 
 ## Före launch
-- [ ] CA – placeholder i `src/data/site.ts` (`brand.ca`)
+- [x] CA – `HEBYskr8wquR51ffTUmshEoqzFTJv9X3hLGUGbX8pump` (`src/data/site.ts`)
 - [ ] `runtime`-etiketten på entiteterna (står "Codex") – `src/data/entities.ts`
 - [ ] Kolla att $VENT är ledigt på pump.fun
 - [ ] X-handle och länk i footer/meta när kontot finns
